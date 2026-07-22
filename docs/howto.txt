@@ -1,0 +1,8 @@
+// SET ENVIRONMENT
+python3 -m venv /home/hp/Desktop/PYTHON/IP2COUNTRY/.venv
+// ACTIVATE ENVIRONMENT
+source /home/hp/Desktop/PYTHON/IP2COUNTRY/.venv/bin/activate
+// EDIT db_config.py FOR MYSQL PARAMETERS
+mysql file located in sql directory contains the table layout
+// RUN bash SCRIPT daily 
+./run_daily_imports.sh
