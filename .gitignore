@@ -7,11 +7,12 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Logs
-logs/
-*.log
 
 # OS files
 .DS_Store
 
+# Generated logs
+logs/
+
+# Large data files
 csv/geolite2-city-ipv4-num.csv
